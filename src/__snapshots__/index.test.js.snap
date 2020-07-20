@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <div
+        className="container-fluid"
+      >
+        <ul
+          className="nav navbar-nav"
+          style={
+            Object {
+              "display": "-webkit-box",
+            }
+          }
+        >
+          <li
+            className="active"
+            style={
+              Object {
+                "paddingRight": "10px",
+              }
+            }
+          >
+            <a
+              href="/admin"
+              id="link_one"
+              onClick={[Function]}
+            >
+              Admin Page
+            </a>
+          </li>
+          <li>
+            <a
+              href="/check_In"
+              id="link_two"
+              onClick={[Function]}
+            >
+              Staff Page
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+`;
